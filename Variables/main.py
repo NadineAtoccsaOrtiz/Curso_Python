@@ -1,7 +1,7 @@
 #VARIABLES
 #  es un espacio en la memoria
 # donde podemos almacenar datos
-nombre='Nadine'
+#nombre='Nadine'
 #nombre identificador que vamos a usar
 # = signo de asigancion que indica que vamos almacenar
 # Nadine -> dato que estamos almacenando
@@ -23,9 +23,11 @@ nombre='Nadine'
 # 3.- no puede ser una palabra reservada
 
 #EJEMPLOS DE VARIABLES RESERVADAS
-a='valido'      -> 3='invalido'    
-a3='valido'     -> 3a='invalido'
-a_b_c='valido'  -> for='invalido'
-_abc='valido'   -> with='invalido'
-_3a='valido'    -> 3_a='invalido'
-ABC='valido'    -> mi-variable='invalido'
+#a='valido'      -> 3='invalido'    
+#a3='valido'     -> 3a='invalido'
+#a_b_c='valido'  -> for='invalido'
+#_abc='valido'   -> with='invalido'
+#_3a='valido'    -> 3_a='invalido'
+#ABC='valido'    -> mi-variable='invalido'
+#int es para texto
+#input 
