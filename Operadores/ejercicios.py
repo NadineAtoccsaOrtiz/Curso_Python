@@ -84,7 +84,7 @@ LongDNI=(len(DNI))
 if LongDNI==8:	
     nombre=input('ingresa tu nombre')	
     print(f"""	
-    {nombre}, {DNI}	
+    Bienvenid@, {nombre}	
     """)
 else:	
     print('Error, vuelva a ingresar el DNI')
