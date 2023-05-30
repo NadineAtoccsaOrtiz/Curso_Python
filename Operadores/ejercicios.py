@@ -78,14 +78,28 @@
 #if edad>18:
 #    print("mayor de edad")
 
-#TAREA:
-DNI=input('Ingresa tu DNI')
-LongDNI=(len(DNI))
-if LongDNI==8:	
-    nombre=input('ingresa tu nombre')	
-    print(f"""	
-    Bienvenid@, {nombre}	
-    """)
-else:	
-    print('Error, vuelva a ingresar el DNI')
+#TAREA 1:
+#DNI=input('Ingresa tu DNI')
+#LongDNI=(len(DNI))
+#if LongDNI==8:	
+#    nombre=input('ingresa tu nombre')	
+#    print(f"""	
+#    Bienvenid@, {nombre}	
+#    """)
+#else:	
+#    print('Error, vuelva a ingresar el DNI')
 
+#TAREA 2:
+#apellido=input("Ingresa tu primer apellido")
+#comparacion=apellido[-2:]
+#if comparacion=='ez':
+#    print("Eres casi español")
+#if comparacion=='es':
+#    print("Eres casi peruano")
+
+#TAREA 3:
+dni=input("ingresa tu dni")
+longdni=(len(dni))
+if longdni==8:
+    
+    print()
