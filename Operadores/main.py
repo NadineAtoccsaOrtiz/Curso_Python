@@ -135,3 +135,100 @@
 #con= comparar letras se pueden pero conel codigo ascci
 #las comparaciones solo se hacen con numero pero al colocar letras 
 #internamente lo compara basandose en el codigo ascci de las letras
+
+
+#CONVERSACIONES string número
+
+#Número=”10”
+#Input() nos devuelve string
+#Convertir a número
+#Print(type(int(numero))
+#o
+#Número=”10”
+#Número invertido=int(número)
+#Print(type(número))
+#Print(type(numeroconvertido))
+# →<class ‘str’>
+# →<class ‘int’>
+
+#FlotanteString=’10’
+#Flotantenúmero=float(FlotanteString)
+#Print(FlotanteString)
+#Print(flotantenúmero)
+# →10
+# →10.0
+
+#Print(type(flotantenúmero))
+#→<class ‘float’>
+
+#Int-entero
+#Input-captura datos
+# float → coma o punto flotante, sirve en casos por ejemplo cuando se trabaja con dinero, 
+# encuestas, en peso, talla, etc
+
+
+#CONVERSIÓN INVERSA
+#Númeroentero=20
+#Númerostring=(str(Númeroentero))
+
+#Ejercicios
+#Haga un programa que pida al usuario su nombre y luego su apellido y como salida que concatene 
+# ambos datos 
+
+#Ejercicio
+#Hacer un programa que pida un texto y me de cómo salida la cantidad de letras que tiene
+
+#NOTA:
+#Algoritmos de ordenamiento
+#Controles de flujo- cortar la secuencia normal de un programa 
+#Los programas se manejan de forma secuencial 
+#ejem
+#Nombre=’Jory’
+#Mensaje=’hola bichota’
+#Print(mensaje)
+#Print(nombre)
+# →hola
+# →jory
+
+#bloques en python
+#Cuando nosotros utilicemos cualquier control de flujo o funciones, el código que se debe
+#  ejecutar deberá estar definida por bloques o identaciones.
+
+#       1).- condicionales:
+
+#       Se realiza algo si se cumple cierta condición
+
+#       Cuando tenemos un capítulo
+
+#Ejemplo:
+
+#I.Introduccion
+
+#   1.1. concepto 
+
+#   1.2.
+
+#Estructura
+
+#Si tenemos un control de flujo por ejemplo una condición, se va ejecutar si se cumple la condición 
+
+#Si es verdad:
+
+#      Print(’es verdad’)
+
+#Print(’otra cosa’)
+#=================================================================
+#If true: o → if false: 
+#      Print(’es verdad’)
+
+#Print(’otra cosa’)
+
+#Si es falso no ejecuta, ahí se rompe el flujo, al pasar eso el programa se pasa a la siguiente línea y 
+# así sucesivamente hasta imprimir otra cosa
+
+#Omite lo demás al no cumplir la condición
+
+#Todo lo que hay dentro de if si la condición es verdad, caso contrario se imprime lo que está fuera de if
+
+#TAREA: hacer un programa que pida al usuario su DNI si la longitud del DNI es 8 que pida su nombre y lo muestre 
+# en consola si la longitud del DNI es mayor o menor a 8 que muestre un mensaje de error.

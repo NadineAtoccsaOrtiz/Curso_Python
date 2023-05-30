@@ -47,5 +47,47 @@
 #pertenencia='hola' in 'hola mundo'
 #print(pertenencia)
 
-con='a'<'A' ##codigo ascci
-print(con)
+#con='a'<'A' ##codigo ascci
+#print(con)
+
+#EJERCICIOS DE CONVERSIONES
+#nombre=input("Ingresa tu nombre")
+#apellido=input("Ingresa tu apellido")
+#print(f"""
+#===========================================
+#"{nombre}, {apellido}"
+#===========================================
+#""")
+
+#EJERCICIO 2
+#TEXTO=input("Ingrese un texto")
+#CantidadTexto=(len("TEXTO"))
+#print(CantidadTexto)
+
+#EJRCICIO 3
+#Compararcion
+#comparacion=20
+#if comparacion!=40:
+#    print("afuera")
+#print("dentro")
+
+#EJERCICIO 4
+#edad=16
+#if edad<18:
+#    print("menor de edad")
+#if edad>18:
+#    print("mayor de edad")
+
+#TAREA:
+DNI=input('Ingresa tu DNI')
+LongDNI=(len(DNI))
+if LongDNI==8:	
+    nombre=input('ingresa tu nombre')	
+    print(f"""	
+    {nombre}, {DNI}	
+    """)
+else:	
+    print('Error, vuelva a ingresar el DNI')
+
+#
+#
