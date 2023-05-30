@@ -29,5 +29,5 @@
 #_abc='valido'   -> with='invalido'
 #_3a='valido'    -> 3_a='invalido'
 #ABC='valido'    -> mi-variable='invalido'
-#int es para texto
-#input 
+#int significa numero entero
+#input= pide datos de string
