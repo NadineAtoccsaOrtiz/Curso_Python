@@ -89,5 +89,3 @@ if LongDNI==8:
 else:	
     print('Error, vuelva a ingresar el DNI')
 
-#
-#
