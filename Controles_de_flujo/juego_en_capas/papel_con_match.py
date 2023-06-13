@@ -4,7 +4,7 @@ Bienvenid@s al juego: Piedra👊, Papel🖐  o Tijeras✌
 ====================================================
 """)
 import nombres
-print(f'Hola {nombres.persona1} y {nombres.persona2}✨🎉')
+print(f'\nHola {nombres.persona1} y {nombres.persona2}✨🎉')
 import mensajes
 print(mensajes.movimientos)
 

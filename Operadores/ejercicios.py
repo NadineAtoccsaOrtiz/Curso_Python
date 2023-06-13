@@ -131,7 +131,3 @@ El area el triangulo es {area}
 #            ---> El año que ingreso no es bisiesto🙁
 #    """)
 
-#piedra pael tijera
-print("")
-jugador_1=
-jugador_2=
