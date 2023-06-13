@@ -27,7 +27,7 @@ mutar en cualquier momento
 
 > REGLAS PARA NOMBRAR VARIABLES📌
 
-  1.- solo pueden tener los siguientes caracteres 
+1.- solo pueden tener los siguientes caracteres 
 - [ ] letras minusculas 
 - [ ] letras mayusculas
 - [ ] digitos 

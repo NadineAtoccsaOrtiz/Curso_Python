@@ -3,7 +3,7 @@
 com=12<13
 # Operadores logicos
 var = False & False
-opera= False| True>
+#opera= False| True>
 # Operaores aritmeticos
 op=45/23/45*2
 print(opera)
@@ -21,7 +21,7 @@ letra='hola'+' '+' a todos'
 cadena='hola'* 5
 ##obtener una cadena en  especifico
 obtenerCadena='hola' 
-texto'descrion del texto :" este es una cita"'
+#texto'descrion del texto :" este es una cita"'
 ##python asigna a una cadena dos tiposn de indices
 #indice posiotivo de derech a izquierda
 ### empieza con 0
@@ -46,11 +46,11 @@ len(ejemplo)##6
 ## cuando  es la cantidad de indices
 ##indice=5
 ##liongitud)=6
-longitud=(len ultimoString)
+#longitud=(len ultimoString)
 print(ultimoString[lonitud-1]) ## print (ultimoString[-11])
 #### pertenencia
 pertenencia='H'in 'hola mundo'
-con='a'>'A' → CODIGO ASSCCI
+#con='a'>'A' → CODIGO ASSCCI
 print(con)
 
 ## COMVERSIONES STRING NUMEROS
