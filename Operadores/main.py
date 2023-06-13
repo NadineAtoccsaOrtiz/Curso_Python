@@ -232,3 +232,6 @@
 
 #TAREA: hacer un programa que pida al usuario su DNI si la longitud del DNI es 8 que pida su nombre y lo muestre 
 # en consola si la longitud del DNI es mayor o menor a 8 que muestre un mensaje de error.
+
+#patrones de arquitectura
+#
