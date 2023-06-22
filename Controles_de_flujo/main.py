@@ -83,4 +83,13 @@ else:
   
 
 
-## 3
+## 3 FOR
+#PARA ENLISTAR COSAS USAR LAS COMAS (, )
+vocales=[ 'a', 'e', 'i', 'o', 'u']
+#siempre se usan corchetes para hacer una lista
+print(vocales[0])
+print(vocales[1])
+print(vocales[2])
+
+for numero in range(0,5):
+  print(vocales[numero])
