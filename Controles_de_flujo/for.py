@@ -35,8 +35,8 @@
 
 ##EJERCICIO
 #crear un programa que me deje ingresar datos en una lista vacia
-#en caso de que el usuario ingrese la palabra'si' el programa dejara de pedir datos
-#y me mostrara la lista con todos los datos ingresados
+#en caso de que el usuario ingrese la palabra'si' el programa dejara de pedir datosl
+
 
 texto=[]
 while True:
@@ -47,6 +47,21 @@ while True:
 print(texto)
     
             
+texto=[]
+condicion=1
+while True:
+    dato1=input('ingresa un la palbra o letra: ')
+    if dato1 =='si':
+        condicion=0
+    texto.append(dato1)
+print(texto)
 
-    
+#TAREA, LIMITE 5
+animales=[]
+while True:
+    for numero in range(0,5):
+        datos=input('ingresa un  animal')
+    animales.append(datos)
+print(animales)
+
 
