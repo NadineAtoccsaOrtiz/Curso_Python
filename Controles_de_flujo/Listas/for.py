@@ -56,9 +56,6 @@ while True:
     texto.append(dato1)
 print(texto)
 
-#NOTA
-#while para un bucle que se detenga, pero que dependa del usuario
-#por ejemplo si la condicion es detener el programa cuandose iguesa la palabra "si" se detendra, no importa las vceces que el usuario ingrese datos, se detendra cuando escriba la `palabra si
-#con for es diferente, nosotros si sabemos cuando va tenerminar el prpograma, por ejemploal poner le limite de 5 datos etc`
+
 
 
