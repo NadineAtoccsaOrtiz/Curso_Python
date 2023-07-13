@@ -1,8 +1,11 @@
 import datos
-while len (datos.lista)>5:
+while len(datos.lista)5:
     dato=input('Ingresa un dato: ')
-    (datos.lista).append(dato)
+    datos.lista.append(dato)
 for texto in range(0, len(datos.lista)):
     if datos.lista[texto]== 'disco':
-        palabra=datos.lista[texto]
-        indice=texto
+        datos.palabra=datos.lista[texto]
+        datos.indice=texto
+
+
+

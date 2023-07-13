@@ -14,5 +14,5 @@ for texto in range(0, len(lista):
         indice=texto
 print(f"""
 el texto disco se encuentra en el indice, {indice}
-y el textoes {palabra}
+y el texto es {palabra}
 "")
