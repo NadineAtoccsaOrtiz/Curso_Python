@@ -36,7 +36,8 @@ def mensajebienvenida(nombre):
 def suma(numero1, numero2):
  	operacion=numero1+numero2
  	return mensaje(operacion)
-def resta 
+def resta(numero1, numero2):
+	operacion=numero1-numero2return
 
 ingresanombre=input('ingresa su nombre: ')
 print(mensajebienvenida(ingresanombre))
