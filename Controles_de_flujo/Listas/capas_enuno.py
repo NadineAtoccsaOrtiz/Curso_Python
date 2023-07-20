@@ -1,12 +1,13 @@
 ##entrada
 frutas=[]
+indice=0
 while len(frutas)<5:
     nuevafruta=input('ingresa una fruta: ')
     for fruta in frutas:
         if len(nuevafruta)==len(fruta):
             print('misma longitud ')
     if nuevafruta in frutas:
-        print('esta fruta ya existe huevonaso; ingfresa otra fruta pendejo: ')
+        print('esta fruta ya existe huevonaso; ingresa otra fruta pendejo: ')
     else:
         frutas.append(nuevafruta)
 #proceso
@@ -17,6 +18,10 @@ def textolargo(array):
         if len(array[index])>longitudtexto:
             longitudtexto=len(array[index])
             mostrarfruta=array[index]
-    return mostrarfruta
+            mostrarfruta=longitudtexto[index]
+            indice=index
+            mensaje=f"""La fruta mas larga es {textolargo(frutas)}, y se encuentra en el indice {indice}"""
+    return mensaje
 #salida
-print(textolargo(frutas))
+print(textolargo(array))
+
