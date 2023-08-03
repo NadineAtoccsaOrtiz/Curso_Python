@@ -6,7 +6,7 @@ def miObjeto(**valores):
          "sexo":"",
          "direccion":""
   }
-return nuevoObjeto
+return miObjeto
 usuario = {
      "jose",
      "alvares",

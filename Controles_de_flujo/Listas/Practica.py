@@ -27,13 +27,25 @@
 # {nombre:orlando, edad:15, completo:orlando 15},
 # {nombre:yadira, edad:10, completo: yadira 10}]
 
-lista=[]
-def alumnos(lista):
-    while len(lista)<=1:
-        objeto={}
-        objeto['nombre']=input('ingresa tu nombre: ')
-        objeto['Edad']=int(input('ingresa tu edad: '))
-        objeto['completo']=(objeto) 
-    lista.append(objeto)
+nombre=['jory','orlando','yadira']
+edad=[50,15,10]
+completo=nombre+edad
+def alumnos(nombre,edad):
+    alumnos=[]
+    for i in range(len(nombre)):
+        
+        objeto={
+                'nombre':nombre[i],
+                'edades':edad[i],
+                'completo':f"{nombre[i]} {edad[i]}"
+        }
+        alumnos.append(objeto)
     return alumnos
-print(lista)
+mis_alumnos=alumnos(nombre,edad)
+print(mis_alumnos)
+
+
+
+
+
+
