@@ -9,18 +9,18 @@
 
 def lenguaje_hacker(texto):
     vocales={
-        'a'='4',
-        'e'='3',
-        'i'='1',
-        'o'='0',
-        't'='7'
+        'a':'4',
+        'e':'3',
+        'i':'1',
+        'o':'0',
+        't':'7'
     }
     fusion=""
     for letras in texto:
         letras_min=letras.lower()
         fusion+=vocales.get(letras_min,letras)
     return fusion
-
+if __name__ in "__main__":
     texto=input('ingresa un palabra para convertirlo: ')
-    texto_fusion=lenguaje_hacker(texto)
-    print(f"""texto_fusion:{texto_fusion} """)
+    vocales=lenguaje_hacker(texto)
+print("texto_fusion:", vocales)

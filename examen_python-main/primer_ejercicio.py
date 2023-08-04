@@ -7,9 +7,9 @@ def heterograma(lista):
     for a in lista:
         if a in letras:
             return False
-        letras
+        letras[a]=1
     return True
-lista=input('ingresa una palabra')
+lista=input('ingresa una palabra: ')
 if heterograma(lista):
     print(f"""{lista}', es una palabra heterograma.""")
 else:
